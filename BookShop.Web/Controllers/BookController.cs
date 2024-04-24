@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BookShop.Web.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class BookController : Controller
     {
         private readonly IBookRepository _bookRepository;
@@ -21,6 +21,7 @@ namespace BookShop.Web.Controllers
             return View(listBook);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();

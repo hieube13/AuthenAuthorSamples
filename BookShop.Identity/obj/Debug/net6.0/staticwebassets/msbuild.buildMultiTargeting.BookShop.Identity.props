@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookShop.Identity.props" />
+</Project>

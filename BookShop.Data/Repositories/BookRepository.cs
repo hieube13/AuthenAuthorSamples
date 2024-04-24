@@ -15,9 +15,9 @@ namespace BookShop.Data.Repositories
         {
             _context = context;
 
-            if (!context.Books.Any())
+            if (!_context.Books.Any())
             {
-                _context.Books.Add(new Book()
+                _context.Books.Add(new Book
                 {
                     BookName = "Real Madrid",
                     Price = 9000.9,
@@ -25,7 +25,7 @@ namespace BookShop.Data.Repositories
                     Publisher = "Florentino Perez"
                 });
 
-                _context.Books.Add(new Book()
+                _context.Books.Add(new Book
                 {
                     BookName = "Barca",
                     Price = 5000.6,
@@ -33,13 +33,15 @@ namespace BookShop.Data.Repositories
                     Publisher = "Joan Laporta"
                 });
 
-                _context.Books.Add(new Book()
+                _context.Books.Add(new Book
                 {
                     BookName = "Atletico Madrid",
                     Price = 6000.7,
                     Author = "Diego Simone",
                     Publisher = "Enrique Cerezo"
                 });
+
+                _context.SaveChanges();
             }
         }
 

@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace BookShop.Web.Controllers
 {
-    [AllowAnonymous]
+    //[AllowAnonymous]
     //[Authorize]
     public class HomeController : Controller
     {

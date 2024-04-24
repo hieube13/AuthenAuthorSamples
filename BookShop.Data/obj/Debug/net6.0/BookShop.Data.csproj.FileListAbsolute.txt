@@ -10,3 +10,4 @@ F:\AuthenAuthor\AuthenAuthorVD\BookShop.Data\obj\Debug\net6.0\BookShop.Data.dll
 F:\AuthenAuthor\AuthenAuthorVD\BookShop.Data\obj\Debug\net6.0\refint\BookShop.Data.dll
 F:\AuthenAuthor\AuthenAuthorVD\BookShop.Data\obj\Debug\net6.0\BookShop.Data.pdb
 F:\AuthenAuthor\AuthenAuthorVD\BookShop.Data\obj\Debug\net6.0\ref\BookShop.Data.dll
+F:\AuthenAuthor\AuthenAuthorVD\BookShop.Data\obj\Debug\net6.0\BookShop.Data.sourcelink.json
